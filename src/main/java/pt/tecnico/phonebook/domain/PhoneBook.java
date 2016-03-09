@@ -82,4 +82,9 @@ public class PhoneBook extends PhoneBook_Base {
          if (classLoader.getResource(filename) == null) return null;
          return new java.io.File(classLoader.getResource(filename).getFile());
     }
+
+    public int getPhoneNumberByContact(String name) throws ContactDoesNotExistException {
+        // TODO: mockup example
+	return 0;
+    }
 }
